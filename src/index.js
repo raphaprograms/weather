@@ -1,4 +1,7 @@
 import "./styles.css";
-import { connect } from "./home.js";
+import { connect, createDisplay } from "./home.js";
+
 
 console.log(connect);
+
+createDisplay();
